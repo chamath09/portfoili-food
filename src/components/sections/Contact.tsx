@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin, Linkedin, Github, Instagram } from 'lucide-react';
+import { Mail, Phone, MapPin, Linkedin, Instagram, Facebook } from 'lucide-react';
 
 export function Contact() {
     return (
@@ -68,15 +68,30 @@ export function Contact() {
                         <div className="mt-12">
                             <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">Follow Me</p>
                             <div className="flex gap-4">
-                                {[Linkedin, Github, Instagram].map((Icon, i) => (
-                                    <a
-                                        key={i}
-                                        href="#"
-                                        className="w-10 h-10 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center text-gray-600 dark:text-gray-300 hover:bg-emerald-500 hover:text-white dark:hover:bg-emerald-500 transition-all"
-                                    >
-                                        <Icon size={20} />
-                                    </a>
-                                ))}
+                                <a
+                                    href="https://www.linkedin.com/in/chathumi-sewwandi-b358452a8/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="w-10 h-10 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center text-gray-600 dark:text-gray-300 hover:bg-emerald-500 hover:text-white dark:hover:bg-emerald-500 transition-all"
+                                >
+                                    <Linkedin size={20} />
+                                </a>
+                                <a
+                                    href="https://www.instagram.com/chathu.mii/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="w-10 h-10 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center text-gray-600 dark:text-gray-300 hover:bg-emerald-500 hover:text-white dark:hover:bg-emerald-500 transition-all"
+                                >
+                                    <Instagram size={20} />
+                                </a>
+                                <a
+                                    href="https://web.facebook.com/profile.php?id=100095075293644"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="w-10 h-10 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center text-gray-600 dark:text-gray-300 hover:bg-emerald-500 hover:text-white dark:hover:bg-emerald-500 transition-all"
+                                >
+                                    <Facebook size={20} />
+                                </a>
                             </div>
                         </div>
                     </motion.div>
