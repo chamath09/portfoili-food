@@ -30,7 +30,7 @@ const initialPosts = [
 ];
 
 export function Blog() {
-    const [posts, setPosts] = useState(initialPosts);
+    const [posts] = useState(initialPosts);
 
     const handlePublish = () => {
         alert("Publish feature would open a CMS or form here. (Demo Mode)");

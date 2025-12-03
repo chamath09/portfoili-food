@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin, Send, Linkedin, Github, Instagram } from 'lucide-react';
+import { Mail, Phone, MapPin, Linkedin, Github, Instagram } from 'lucide-react';
 
 export function Contact() {
     return (
